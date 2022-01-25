@@ -5,8 +5,8 @@ ruby: "2.7.5"
 
 script: true
 
-before_deploy:
-  - gem install faraday -v 1.9.3
+#before_deploy:
+#  - gem install faraday -v 1.9.3
 deploy:
   provider: heroku:git
   api_key: $HEROKU_API_KEY
