@@ -4,3 +4,10 @@ language: ruby
 ruby: "2.3.0"
 
 script: true
+
+deploy:
+  provider: heroku
+  api_key: $HEROKU_API_KEY
+  app: tci-dpl
+  on:
+    all_branches: true
