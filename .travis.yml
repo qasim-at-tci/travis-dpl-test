@@ -1,0 +1,6 @@
+os: linux
+dist: xenial
+language: ruby
+ruby: "2.3.0"
+
+script: true
