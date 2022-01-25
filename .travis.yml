@@ -1,7 +1,7 @@
 os: linux
 dist: xenial
 language: ruby
-ruby: "2.3.0"
+ruby: "2.7.5"
 
 script: true
 
