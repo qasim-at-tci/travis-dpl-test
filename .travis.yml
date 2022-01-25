@@ -8,7 +8,7 @@ script: true
 #before_deploy:
 #  - gem install faraday -v 1.9.3
 deploy:
-  provider: heroku:git
+  provider: heroku
   api_key: $HEROKU_API_KEY
   app: tci-dpl
   on:
